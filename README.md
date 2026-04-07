@@ -100,6 +100,7 @@ alpha(x,y) = 0
 该问题用于：
 - 验证快速 DST 求解器的正确性；
 - 比较 DST、BlockLU、Jacobi、Gauss-Seidel 的运行时间与误差。
+<img width="875" height="656" alt="task1_comparison" src="https://github.com/user-attachments/assets/c96a7498-df7f-47c6-b3b2-bec323bf4740" />
 
 ### Task 2: `[0,1]^2` 上非齐次 Dirichlet
 
@@ -122,6 +123,8 @@ alpha(x,y) = exp(x+y)
 ```
 
 该问题用于验证非齐次边界处理是否正确。
+<img width="1875" height="625" alt="task2_nonhomogeneous" src="https://github.com/user-attachments/assets/b2ade596-a5da-46fd-8bf4-f83d8b717ba5" />
+
 
 ### Task 3: 一般矩形 `[0,a] x [0,b]`
 
@@ -145,6 +148,8 @@ f(x,y) = ((pi/a)^2 + (2*pi/b)^2) .* sin(pi*x/a).*sin(2*pi*y/b)
 ```
 
 边界条件仍为零边界，用来验证程序已不依赖单位正方形假设。
+<img width="1875" height="625" alt="task3_rectangle" src="https://github.com/user-attachments/assets/4fe0f0e8-6ff1-4890-82c6-27ba692023d1" />
+
 
 ## 6. 关于 DST 实现
 
