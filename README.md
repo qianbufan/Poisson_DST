@@ -1,4 +1,4 @@
-# Project 1 - Poisson方程五点差分格式的快速算法与数值比较实验
+# Poisson方程五点差分格式的快速算法与数值比较实验
 
 本项目按照 `Project-1.pdf` 的要求实现了二维 Poisson 方程五点差分格式的快速求解与数值实验，并参考 `FFTPoissonCode.pdf` 中给出的 DST/BlockLU/Jacobi/Gauss-Seidel 思路。
 
